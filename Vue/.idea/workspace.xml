@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2117b66-b8fe-418d-a67f-cb043d60bf80" name="默认更改列表" comment="" />
+    <list default="true" id="b2117b66-b8fe-418d-a67f-cb043d60bf80" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/src/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +27,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vuedemo" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,10 +41,20 @@
       <option name="presentableId" value="Default" />
       <updated>1594633884815</updated>
       <workItem from="1594633885972" duration="14000" />
+      <workItem from="1594719011589" duration="16000" />
+      <workItem from="1594803116247" duration="758000" />
+      <workItem from="1594804125872" duration="269000" />
+      <workItem from="1594805053092" duration="648000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1594803874451">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1594803874451" />
   </component>
 </project>
