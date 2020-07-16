@@ -11,13 +11,13 @@
       <br>
       <input type="checkbox" v-model="checked" value="css" id="css">
       <label for="css">CSS</label>
-      <br>
+         <br>
       <p>选择的项是：{{checked}}</p>
 
     </div>
     <div>
       <input type="checkbox" v-model="toggle" :true-value="value1" :false-value="value2">
-      <label>复选框{{toggle}}</label>
+          <label>复选框{{toggle}}</label>
     </div>
     <div>
       <input type="text" v-model.lazy="message">
@@ -26,7 +26,8 @@
     <div>
       <input type="number" v-model.number="numberMessage">
       <p>{{typeof numberMessage}}</p>
-    </div>
+       </div>
+    <button @dblclick="count++">双击{{count}} </button>
     <div>
 
     </div>
@@ -44,6 +45,7 @@
     },
     data () {
       return {
+        count:1,
         checked: [],
         toggle: '',
         value1: 'a',
@@ -53,4 +55,10 @@
       }
     },
   }
+  function Student(name) {
+    this.name = name;
+  }
+  Student.prototype.study = function () {
+    console.log("study js");
+  };
 </script>
