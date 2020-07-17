@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/htmlDemo">Html Demo</router-link> |
-      <router-link to="/dropList">Drop List</router-link>
+      <router-link to="/dropList">Directives</router-link>
     </div>
     <router-view/>
   </div>

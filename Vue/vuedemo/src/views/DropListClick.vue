@@ -1,12 +1,23 @@
 <template>
-  <div v-cloak>
-    <div class="main" v-clickOutside.esc="handleClose" style="width: 200px"> <!--@keyup.esc="handleClose"-->
-      <button @click="show=!show">点击显示下拉菜单</button>
-      <div class="dropdown" v-show="show">
-        <p>下拉内容，点击外部区域关闭</p>
+  <div class="d-flex">
+    <div v-cloak>
+      <div class="main" v-clickOutside.esc="handleClose" style="width: 200px"> <!--@keyup.esc="handleClose"-->
+        <button @click="show=!show">点击显示下拉菜单</button>
+        <div class="dropdown" v-show="show">
+          <p>下拉内容，点击外部区域关闭</p>
+        </div>
       </div>
     </div>
+    <div>
+      <div v-time="timeNow"></div>
+      <div v-time="timeBefore"></div>
+    </div>
+
+    <div>
+      <input type="text" v-reset>
+    </div>
   </div>
+
 </template>
 
 <script>
@@ -15,10 +26,11 @@
     data () {
       return {
         show: false,
-        esc: false
+        timeNow:(new Date()).getTime(),
+        timeBefore:1594970699400
       }
     },
-    directives: [],
+    directives: {},
     methods: {
       handleClose: function () {
         this.show = false

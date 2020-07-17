@@ -31,11 +31,7 @@
       childComponent
     },
     directives: {
-      focus: {
-        inserted: function (el) {
-          el.focus()
-        }
-      },
+
       test: {
         bind: function (el, binding, vnode) {
           let keys = []
