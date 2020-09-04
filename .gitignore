@@ -10,3 +10,8 @@
 /Type/Type/SyncDeadLock/obj/Debug/netcoreapp2.2
 /Type/Type/Type/obj/Debug
 /Type/Type/Type/bin/Debug/netcoreapp2.2
+netcoreapp3.1
+obj
+.bin
+anymatch
+/Webpack/node_modules
