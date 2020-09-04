@@ -12293,8 +12293,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dingx\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\59851\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -12302,14 +12301,11 @@
       "projectUniqueName": "E:\\TotalDemo\\Type\\Type\\Type\\Type.csproj",
       "projectName": "Type",
       "projectPath": "E:\\TotalDemo\\Type\\Type\\Type\\Type.csproj",
-      "packagesPath": "C:\\Users\\dingx\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\59851\\.nuget\\packages\\",
       "outputPath": "E:\\TotalDemo\\Type\\Type\\Type\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\dingx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\59851\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12376,7 +12372,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

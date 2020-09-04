@@ -12,7 +12,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncDeadLock", "SyncDeadLoc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreFirst", "CoreFirst\CoreFirst.csproj", "{5D4C14EA-C1D6-4416-814F-5AEBEF77A8EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWeb", "CoreWeb\CoreWeb.csproj", "{9A44ABE5-FF0C-4C89-8A72-6061F01B849A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWeb", "CoreWeb\CoreWeb.csproj", "{9A44ABE5-FF0C-4C89-8A72-6061F01B849A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{C8CAB582-5FF9-47FF-9209-98150CE85DBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,10 @@ Global
 		{9A44ABE5-FF0C-4C89-8A72-6061F01B849A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A44ABE5-FF0C-4C89-8A72-6061F01B849A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A44ABE5-FF0C-4C89-8A72-6061F01B849A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8CAB582-5FF9-47FF-9209-98150CE85DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8CAB582-5FF9-47FF-9209-98150CE85DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8CAB582-5FF9-47FF-9209-98150CE85DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8CAB582-5FF9-47FF-9209-98150CE85DBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
