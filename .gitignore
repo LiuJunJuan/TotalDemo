@@ -16,3 +16,8 @@ obj
 anymatch
 /Webpack/node_modules
 /Webpack/.idea
+/DomeTest/bin
+/WebSocketApi/bin
+/WebSocketDemo/bin/roslyn/*.dll
+/WebSocketDemo/bin
+/DomeTest/packages

@@ -1,0 +1,135 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style type="text/css">
+    .select-node-header {
+        height: 50px;
+        width: 180px;
+        border: black 1px solid;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer
+    }
+
+        .select-node-header .child-node {
+            position: absolute;
+            left: 180px;
+            top: 0
+        }
+
+        .select-node-header .menu-trigger {
+            font-size: 10px;
+            position: absolute;
+            right: 5px;
+            top: 20px;
+        }
+
+        .select-node-header.active {
+            background-color: #ffa500
+        }
+
+    .select-node-title {
+        cursor: pointer;
+        overflow: hidden;
+        position: absolute;
+        left: 20px;
+        top: 15px;
+    }
+</style>
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div id="test" style="font-size: 16px;position: relative">
+        <div class="select-node-header" data-level1>
+            <span class="select-node-title">购物车状况</span>
+            <span class="menu-trigger glyphicon glyphicon-chevron-right"></span>
+
+            <div class="child-node" hidden>
+                <div class=" select-node-header">
+                    Second 1
+                </div>
+                <div class=" select-node-header">
+                    Second 2
+                </div>
+                <div class=" select-node-header">
+                    Second 3
+                </div>
+            </div>
+        </div>
+        <div class="select-node-header" data-level1>
+            <span class="select-node-title">Wish List收藏</span>
+            <span class="menu-trigger glyphicon glyphicon-chevron-right"></span>
+
+            <div class="child-node" style="display: none">
+                <div class="select-node-header">
+                    <span class="select-node-title">collection</span>
+                    <span class="menu-trigger glyphicon glyphicon-chevron-right"></span>
+                </div>
+                <div class="select-node-header">
+                    <span class="select-node-title"> Category</span>
+                    <span class="menu-trigger glyphicon glyphicon-chevron-right"></span>
+                    <div class="child-node" style="display: none">
+                        <div class="select-node-header">
+                            <span class="select-node-title">Assort</span>
+                            <span class="menu-trigger "></span>
+                        </div>
+                        <div class="select-node-header">
+                            <span class="select-node-title">Category</span>
+                            <span class="menu-trigger"></span>
+                        </div>
+                        <div class="select-node-header">
+                            <span class="select-node-title">SubCategory</span>
+                            <span class="menu-trigger "></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="select-node-header" data-level1>
+            <span class="select-node-title">曾经购买</span>
+            <span class="menu-trigger glyphicon glyphicon-chevron-right"></span>
+        </div>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#test').on('click',
+            '.select-node-header',
+            function (event) {
+                console.log("111");
+                event.stopPropagation();
+                var $this = $(this);
+                $this.addClass("active");
+                var $showChild = $('.child-node:first', $this);
+                if ($showChild.length > 0) {
+                    $showChild.show();
+                }
+                var $childs = $this.parents(".child-node:first");
+                if ($childs.length == 0) {
+                    var $elements = $('[data-level1].active');
+                    if ($elements.length > 1) {
+                        $elements.each(function () {
+                            var $that = $(this);
+                            if (!$that.is($this)) {
+                                $that.removeClass('active');
+                                $('.child-node', $that).hide();
+                                $('.select-node-header', $that).removeClass('active');
+                            }
+                        });
+                    }
+                } else {
+                    $('.select-node-header', $childs).each(function () {
+                        var $that = $(this);
+                        if (!$that.is($this)) {
+                            $that.removeClass('active');
+                            $('.child-node', $that).hide();
+                            $('.select-node-header', $that).removeClass('active');
+                        }
+                    });
+                }
+            });
+    })
+</script>
