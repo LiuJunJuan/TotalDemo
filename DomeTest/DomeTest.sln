@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketConsole", "..\WebS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketApi", "..\WebSocketApi\WebSocketApi.csproj", "{26C9E46E-FA2E-47FA-9ABA-8E5E4289E382}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaMeng", "..\DaMeng\DaMeng.csproj", "{E1ECAD7C-07E5-4FBE-9E77-A9514FAE83B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvReader", "..\CsvReader\CsvReader.csproj", "{CB108E65-0738-4476-9F52-79817A4899ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{26C9E46E-FA2E-47FA-9ABA-8E5E4289E382}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26C9E46E-FA2E-47FA-9ABA-8E5E4289E382}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26C9E46E-FA2E-47FA-9ABA-8E5E4289E382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1ECAD7C-07E5-4FBE-9E77-A9514FAE83B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1ECAD7C-07E5-4FBE-9E77-A9514FAE83B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1ECAD7C-07E5-4FBE-9E77-A9514FAE83B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1ECAD7C-07E5-4FBE-9E77-A9514FAE83B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB108E65-0738-4476-9F52-79817A4899ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB108E65-0738-4476-9F52-79817A4899ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB108E65-0738-4476-9F52-79817A4899ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB108E65-0738-4476-9F52-79817A4899ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,6 +2,7 @@ export default (Vue) => {
   Vue.directive('clickOutside', {
     bind: function (el, binding) {
       function documentHandler (e) {
+       let s=  e.target
         if (el.contains(e.target)) {
           return false
         }

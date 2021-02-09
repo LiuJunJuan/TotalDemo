@@ -21,3 +21,7 @@ anymatch
 /WebSocketDemo/bin/roslyn/*.dll
 /WebSocketDemo/bin
 /DomeTest/packages
+/CsvReader/bin/Debug
+/CsvReader/bin/Release
+/WebSocketConsole/bin/Release
+/Websocket/bin/Release

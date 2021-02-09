@@ -12,7 +12,7 @@
             inc.innerHTML += "connecting to server ..<br/>";
 
             // create a new websocket and connect
-            window.ws = new wsImpl('ws://localhost:59456/values/delete');
+            window.ws = new wsImpl('ws://localhost:28888/tmallStock/connect?brand=ROS');
 
             // when data is comming from the server, this metod is called
             ws.onmessage = function (evt) {
@@ -32,7 +32,17 @@
             form.addEventListener('submit', function (e) {
                 e.preventDefault();
                 var val = input.value;
-                ws.send(val);
+                var str = JSON.stringify({
+                    User: "ROS",
+                    Action: "SkuInventory",
+                    QueryParameter: JSON.stringify(
+                        {
+                            Sku: "RC38030331001M",
+                            Brand: "ROS",
+                            Channel:"Tmall"
+                        })
+                });
+                ws.send(str);
                 input.value = "";
             });
 

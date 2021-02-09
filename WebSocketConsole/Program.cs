@@ -23,10 +23,10 @@ namespace WebSocketConsole
         public static async Task<object> Read()
         {
             var webSocket = new ClientWebSocket();
-            await webSocket.ConnectAsync(new Uri("ws://localhost:63224/socket?user=tmall"), CancellationToken.None);
+            await webSocket.ConnectAsync(new Uri("ws://localhost:59456/values/delete?brand=ROS"), CancellationToken.None);
             var bsend = System.Text.Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(new
             {
-                User = "tmall",
+                User = "ROS",
                 Action = "Sku",
                 QueryParameter =JsonConvert.SerializeObject(new
                 {
