@@ -33,6 +33,14 @@ const routes = [
     meta: {
       title: 'DropList'
     }
+  },
+  {
+    path: '/firebase',
+    name: 'firebase',
+    component: () => import('../views/Firebase'),
+    meta: {
+      title: 'Firebase'
+    }
   }
 ]
 

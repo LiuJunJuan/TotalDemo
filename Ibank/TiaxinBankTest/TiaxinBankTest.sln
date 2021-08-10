@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiaxinBankTest", "TiaxinBankTest.csproj", "{154CEB50-FA8F-4351-B354-99351E60BBFB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{30B28F4D-31D7-4C82-9E8D-4C0B05DBAAA7} = {30B28F4D-31D7-4C82-9E8D-4C0B05DBAAA7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHUBVASdk", "..\..\..\Intranet.Soucecodes\IHUBVASdk\IHUBVASdk.csproj", "{30B28F4D-31D7-4C82-9E8D-4C0B05DBAAA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{154CEB50-FA8F-4351-B354-99351E60BBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154CEB50-FA8F-4351-B354-99351E60BBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154CEB50-FA8F-4351-B354-99351E60BBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154CEB50-FA8F-4351-B354-99351E60BBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B28F4D-31D7-4C82-9E8D-4C0B05DBAAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B28F4D-31D7-4C82-9E8D-4C0B05DBAAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B28F4D-31D7-4C82-9E8D-4C0B05DBAAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B28F4D-31D7-4C82-9E8D-4C0B05DBAAA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3D7A920-E32A-44AF-B59C-D85BA922A826}
+	EndGlobalSection
+EndGlobal
